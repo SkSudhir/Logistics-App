@@ -48,6 +48,7 @@ A React-based dispatch planning application built as a prototype assignment for 
 
 > All scoring functions are mocked for demo purposes but show scalable design.
 
+You’ll need a Firebase config to run it locally. The live version is hosted via Netlify.
 ---
 
 ## 🚀 Getting Started Locally
