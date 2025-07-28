@@ -956,12 +956,13 @@ const TripsOverview = ({ onViewTripDetails, onShowToast, role }) => {
   const canViewAnalytics = role === 'admin';
 
   useEffect(() => {
-    if (!isAuthReady || !db || !userId) {
-      if (isAuthReady) {
-        console.warn("Firestore not ready or user not authenticated for TripsOverview.");
-      }
-      return;
+  if (!isAuthReady || !db || !userId) {
+    if (isAuthReady) {
+      console.warn("Firestore not ready or user not authenticated for TripsOverview.");
+      setLoading(false); // ← Add this line
     }
+    return;
+  }
 
     // Use the global appId variable
     const tripsCollectionRef = collection(db, `artifacts/${firebaseConfig.appId}/users/${userId}/trips`);
