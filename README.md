@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🚚 Logistics Dispatch Planner MVP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based dispatch planning application built as a prototype assignment for Lynkit.io®'s Transport Management System. This app demonstrates core logistics operations like trip planning, driver and vehicle allocation, route optimization, and admin-level analytics.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🔁 **Trip Planning Workflow**  
+  Plan trips with intelligent suggestions based on delivery goals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 👷 **Driver Allocation (AI-Enhanced)**  
+  Ranks drivers using proximity, fatigue risk, and performance scores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🚚 **Vehicle Allotment**  
+  Recommends vehicles based on load fit, fuel efficiency, and maintenance.
 
-### `npm test`
+- 📍 **Route Suggestions**  
+  Includes optimal and alternate route planning with cost and risk.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🧠 **AI Logic Layer (Mocked)**  
+  Mock scoring functions demonstrate how predictive logic can drive decisions.
 
-### `npm run build`
+- 📊 **Admin Dashboard**  
+  Tracks performance, on-time delivery, and trip status across roles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚙️ **Role-Based Access**  
+  Dispatcher, Admin, and Viewer roles with custom permissions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🛠️ **Settings Panel**  
+  Configure fuel prices, fatigue thresholds, and AI settings.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Architecture & Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: React + TailwindCSS
+- **State**: React Hooks
+- **Backend**: Firebase Firestore & Auth (anonymous)
+- **AI Logic**: In-code scoring functions (driver & vehicle)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔍 AI-Driven Decision Logic
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Driver Score** = Performance + Hours Worked + Proximity
+- **Vehicle Score** = Fuel Efficiency + Utilization - Maintenance Penalty
 
-## Learn More
+> All scoring functions are mocked for demo purposes but show scalable design.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started Locally
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/SkSudhir/Logistics-App.git
+cd Logistics-App
+npm install
+npm start
