@@ -39,7 +39,7 @@ This tool demonstrates how a data-driven approach — using driver performance, 
 ---
 ## 🧩 Logic Flow
 
-![Dispatch Logic Flow](./docs/dispatch-logic-flow.png)
+<img width="3560" height="2216" alt="image" src="https://github.com/user-attachments/assets/61de4164-ee01-40b1-a1fa-99340c4a6b8a" />
 
 ---
 
@@ -67,6 +67,17 @@ This tool demonstrates how a data-driven approach — using driver performance, 
 - Cost vs. time simulation for route trade-offs
 - Automated insurance check integration
 - API-ready data layer for 3rd-party logistics systems
+
+---
+## 🎥 Prototype Preview (Screenshots)
+
+<img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/772d43e1-5dd1-4f3e-bdb9-bb065fd6bfe7" /> 
+<img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/8f045697-752c-41d6-bc46-bb216b368ea1" />
+<img width="350" height="449" alt="image" src="https://github.com/user-attachments/assets/4cf69616-faa6-423d-a204-0ea41d8dd58a" />
+<img width="350" height="449" alt="image" src="https://github.com/user-attachments/assets/ad0c3d77-1b8a-462b-865d-f0611035c50b" />
+<img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/009cccf0-5899-481d-8600-b4fe76f3654b" />
+<img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/40193edd-fefd-4b12-9430-b139614b9e2e" />
+
 
 ---
 You’ll need a Firebase config to run it locally. The live version is hosted via Netlify.
