@@ -3,6 +3,14 @@
 A React-based dispatch planning application built as a prototype assignment. This app demonstrates core logistics operations like trip planning, driver and vehicle allocation, route optimization, and admin-level analytics.
 
 ---
+
+## 🔗 Quick Access
+
+- 🚀 **Live Demo**: [https://dispatch-mvp.netlify.app/](https://dispatch-mvp.netlify.app/)
+- 💻 **GitHub Repo**: [https://github.com/SkSudhir/Logistics-App](https://github.com/SkSudhir/Logistics-App)
+- 🧠 **Logic Flow Diagram**: See below
+
+---
 ## 🧠 Product Rationale
 
 Traditional dispatch planning tools often rely on manual assignment or static logic, which leads to inefficiencies, underutilized capacity, and delays.
@@ -80,6 +88,22 @@ This tool demonstrates how a data-driven approach — using driver performance, 
 
 
 ---
+
+---
+
+## ✅ Assignment Requirements vs. Delivery
+
+| Requirement                           | Delivered | Notes |
+|---------------------------------------|-----------|-------|
+| Route / Load / Driver / Vehicle logic | ✅        | All components implemented |
+| Role-based permissions                | ✅        | Admin, Dispatcher, Viewer roles |
+| AI-enhanced logic                     | ✅ (mocked)| Clear scoring functions |
+| Inputs / outputs / UI clarity         | ✅        | Step-by-step flow with overrides |
+| Settings vs. per-trip inputs          | ✅        | Global settings panel |
+| Product-thinking and future vision    | ✅        | Rationale + roadmap added |
+
+---
+
 You’ll need a Firebase config to run it locally. The live version is hosted via Netlify.
 ---
 
